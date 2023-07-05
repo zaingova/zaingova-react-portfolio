@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+body {
+  background-color: #f7def0 !important;
+}
+
+p {
+  border-radius: 10px;
+}
+
+h1 {
+  font-family: 'Libre Bodoni', serif;
+}
+
+/* styles the name in the navbar */
+.name {
+  font-size: 8rem !important;
+}
+
+.title {
+  font-size: 4.3rem !important;
+}
+
+.content-container {
+  min-height: calc(100vh - 34px);
+}
+

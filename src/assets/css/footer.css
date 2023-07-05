@@ -1,0 +1,20 @@
+.footer--pin {
+  position: relative;
+  left: 0;
+  bottom: 0;
+}
+
+.footer {
+  background-color: #ddbdd3;
+}
+
+.footer-btn {
+  color: #965580;
+  font-size: 3rem;
+}
+
+.footer-btn:hover {
+  cursor: pointer;
+  color: #c761a3;
+  transition: 0.3s ease-in-out;
+}
