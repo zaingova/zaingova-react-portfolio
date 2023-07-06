@@ -1,6 +1,10 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 # React Professional-Portfolio - Zain Gova
 
+`!PLEASE NOTE!`
+
+`In the Challenge README, it asks us to have both a Header.js and Nav.js component, but I had no reason to do that because my name is included in the navbar, as a navbar-brand class`
+
 ## Description
 
 This is a professional portfolio created using React. 

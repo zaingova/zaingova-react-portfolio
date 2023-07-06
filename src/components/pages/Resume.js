@@ -29,9 +29,11 @@ export default function Resume() {
         <div className='row mx-2 col-8'>
           <div className='col-4'>
             <h5><b>Back-end</b></h5>
-            <li>Express.js</li>
-            <li>ApolloServer</li>
-            <li>GraphQL</li>
+            <p className='bg-light p-2'>
+              <li>Express.js</li>
+              <li>ApolloServer</li>
+              <li>GraphQL</li>
+            </p>
           </div>
           <div className='col-4'>
             <h5><b>Front-end</b></h5>
@@ -40,9 +42,9 @@ export default function Resume() {
           </div>
           <div className='col-4'>
             <h5><b>Databases</b></h5>
-            <li>Express.js</li>
-            <li>ApolloServer</li>
-            <li>GraphQL</li>
+            <li>MySQL</li>
+            <li>MongoDB</li>
+            <li>IndexedDB</li>
           </div>
         </div>
 
