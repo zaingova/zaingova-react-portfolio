@@ -8,18 +8,16 @@ export default function Resume() {
         Below you'll find a copy of my professional resume. If you'd like to download this document, scroll down just below the resume and you'll find a link!
         <hr></hr>
         While I don't have any experience on the job, I do have plenty of experience working in fine dining kitchens so as a result I have very strong leadership and organizational skills. I look forward to getting some experinece in this field to continue building upon my current skills as well as learning new ones!</p>
-      <div className='col-12 card bg-light px-4 py-4 shadow'>
+      <div className='col-12 card bg-light px-4 py-4 shadow section'>
 
         <h2><b>Zain Gova</b></h2>
         <hr></hr>
 
         {/* contact info */}
         <div className='mx-2 p-3 d-block'>
-          <p className='bg-light'>
-            <ul className='p-1'>zain.gova@yahoo.com</ul>
-            <ul className='p-1'>647-985-2839</ul>
-            <ul className='p-1'>12 Elaine Lennox Court; Toronto, ON</ul>
-          </p>
+          <ul className='p-1 bg-light'>zain.gova@yahoo.com</ul>
+          <ul className='p-1 bg-light'>647-985-2839</ul>
+          <ul className='p-1'>12 Elaine Lennox Court; Toronto, ON</ul>
         </div>
 
         <hr></hr>
@@ -29,15 +27,13 @@ export default function Resume() {
         <div className='row mx-2 col-8'>
           <div className='col-4'>
             <h5><b>Back-end</b></h5>
-            <p className='bg-light p-2'>
-              <li>Express.js</li>
-              <li>ApolloServer</li>
-              <li>GraphQL</li>
-            </p>
+            <li>Express.js</li>
+            <li>ApolloServer</li>
+            <li>GraphQL</li>
           </div>
           <div className='col-4'>
             <h5><b>Front-end</b></h5>
-            <li>React,js</li>
+            <li>React.js</li>
             <li>Handlebars JS</li>
           </div>
           <div className='col-4'>

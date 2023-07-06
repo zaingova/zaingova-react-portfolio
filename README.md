@@ -11,15 +11,6 @@ This is a professional portfolio created using React.
 
 ## Usage
 
-## Installation
-
-Since this project is deployed to github pages, you don't need to install anything. But if you'd like to clone the repository and run it locally, you can do so by running the following commands:
-
-- `git clone https://github.com/zaingova/zaingova-react-portfolio.git` or `git clone git@github.com:zaingova/zaingova-react-portfolio.git` if you want to go the SSH route
-- navigate to the root directory of the project
-- `npm install`
-- `npm run start`
-
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 

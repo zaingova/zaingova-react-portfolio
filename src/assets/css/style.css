@@ -30,6 +30,10 @@ h1 {
   color: var(--cambridgeBlue);
 }
 
+.section {
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
 .title {
   font-size: 4.3rem !important;
   font-family: 'Montserrat Alternates', sans-serif;

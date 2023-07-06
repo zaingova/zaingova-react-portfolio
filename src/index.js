@@ -6,8 +6,8 @@ import ReactDOM from 'react-dom';
 import App from './App';
 
 // importing bootstrap css library
-import 'bootstrap/dist/css/bootstrap.min.css';
 import '../src/assets/css/style.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 // renders App
 ReactDOM.render(<App />, document.getElementById('root'));

@@ -17,7 +17,7 @@ export default function Contact() {
 
       <hr></hr>
 
-      <div className='col-12 card bg-light px-4 py-5 shadow'>
+      <div className='col-12 card bg-light px-4 py-5 shadow section'>
         <form>
           <div className='form-group col-12 my-2'>
             <input type="email" class="form-control" id="email" placeholder="Your email"></input>
@@ -33,7 +33,7 @@ export default function Contact() {
           <div>
             <textarea className='col-12 p-2' rows={5} placeholder='Your message...'></textarea>
           </div>
-          <button className='btn-lg btn btn-contact w-25'>Submit</button>
+          <button className='btn-lg btn btn-contact w-25'><b>Submit</b></button>
         </form>
       </div>
 
