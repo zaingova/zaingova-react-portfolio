@@ -1,5 +1,5 @@
 .navbar {
-  border: 1px solid #000 !important;
+  border-bottom: 2px dashed var(--cambridgeBlue) !important;
   margin-bottom: 1rem !important;
 }
 
@@ -8,27 +8,29 @@
 }
 
 .nav-link.active {
-  color: #000 !important;
-  background-color: #fdecf9 !important;
+  background-color: #86a1d8 !important;
+  color: #fff !important;
   border-bottom-style: none !important;
   height: 130%;
-  transition: 0.5s ease-in-out !important;
+  transition: 0.3s ease-in-out !important;
 }
 
 .nav-link {
   color: #ffffff !important;
-  background-color: #d6a5c6 !important;
-  border: 1px solid #dab9d0 !important;
+  background-color: #6883BA !important;
+  border: 1px solid #6883BA !important;
   border-bottom: none;
   font-family: 'Libre Bodoni', serif;
+  transition: 0.3s ease-in-out !important;
+  margin-right: 0.2rem;
 }
 
 .nav-link:hover {
-  color: #fff !important
+  color: #e2ecff !important;
 }
 
 .nav-link.active:hover {
-  color: #000 !important;
+  color: #e2ecff !important;
 }
 
 .nav-item {

@@ -5,16 +5,16 @@
 }
 
 .footer {
-  background-color: #ddbdd3;
+  background-color: var(--charcoal);
 }
 
 .footer-btn {
-  color: #965580;
+  color: #fff;
   font-size: 3rem;
 }
 
 .footer-btn:hover {
   cursor: pointer;
-  color: #c761a3;
-  transition: 0.3s ease-in-out;
+  color: #adc4f1;
+  transition: 0.5s ease-in-out;
 }

@@ -1,0 +1,15 @@
+.project {
+  background-color: #ecefff;
+  margin-right: 2rem !important;
+}
+
+i {
+  color: #5b628a;
+  font-size: 2.5rem;
+}
+
+i:hover {
+  cursor: pointer;
+  color: #8e97c7;
+  transition: 0.2s ease-in-out;
+}
