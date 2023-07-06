@@ -1,10 +1,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 # React Professional-Portfolio - Zain Gova
 
-`!PLEASE NOTE!`
-
-`In the Challenge README, it asks us to have both a Header.js and Nav.js component, but I had no reason to do that because my name is included in the navbar, as a navbar-brand class`
-
 ## Description
 
 This is a professional portfolio created using React. 
@@ -14,6 +10,15 @@ This is a professional portfolio created using React.
 ### A brief video demonstration of the portfolio
 
 ## Usage
+
+## Installation
+
+Since this project is deployed to github pages, you don't need to install anything. But if you'd like to clone the repository and run it locally, you can do so by running the following commands:
+
+- `git clone https://github.com/zaingova/zaingova-react-portfolio.git` or `git clone git@github.com:zaingova/zaingova-react-portfolio.git` if you want to go the SSH route
+- navigate to the root directory of the project
+- `npm install`
+- `npm run start`
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
