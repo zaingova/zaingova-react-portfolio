@@ -1,11 +1,18 @@
 import React from 'react';
 
+import '../../assets/css/image.css';
+
 export default function About() {
   return (
     <div>
-      <section className='m-3 p-4 '>
-        <h1 className='m-0 title'>About Me</h1>
-        <div className='col-7'>
+      <section className='m-3 p-4 col-8'>
+        <div className='d-flex'>
+
+          <img className='rounded-circle my-3 mb-4 shadow' src='/files/me.png' alt='img'></img>
+          <h1 className='mt-5 mx-5 title'>About Me!</h1>
+        </div>
+        {/* some information about me */}
+        <div className='col-12 mt-2'>
           <p className='p-4 bg-light shadow'>
             Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
             Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
@@ -20,7 +27,7 @@ export default function About() {
             in velit pellentesque vehicula sit amet at augue. Maecenas aliquam
             bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
             est ligula suscipit velit, sed bibendum turpis dui in sapien.</p>
-          <p className='p-4 bg-light shadow'>
+          <p className='p-4   bg-light shadow'>
             Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
             Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
             dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
