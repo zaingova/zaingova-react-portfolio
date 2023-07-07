@@ -3,6 +3,8 @@
 
 ## Description
 
+This link is in the USAGE section, but I'll add one here too. You can access the deployed application by [clicking on this link](https://zaingova.github.io/zaingova-react-portfolio/#contact)!
+
 This is a professional portfolio created using React. It has 4 sections:
 
 - About Me
@@ -22,6 +24,8 @@ In addition to these components, there are links to my socials at the bottom of 
 ### A brief video demonstration of the portfolio
 
 ## Usage
+
+You can access my portfolio using [this link](https://zaingova.github.io/zaingova-react-portfolio/#contact)
 
 Using this app is very simple. Just click on whichever page you'd like to visit in the navbar! You can also click on any of the icons in the footer to be taken to my socials (GitHub, Stack Overflow, Linkedin).
 
