@@ -5,7 +5,8 @@
 }
 
 .nav {
-  margin-left: 3rem;
+  /* margin-left: 3rem; */
+  justify-content: left;
 }
 
 .nav-link.active {
@@ -37,4 +38,35 @@
 .nav-item {
   text-align: center;
   width: 240px;
+}
+
+.nav-responsive {
+  font-size: 7vw;
+}
+
+@media (max-width: 946px) {
+  .nav-responsive {
+    font-size: 80px;
+  }
+
+  .nav {
+    margin-bottom: 1rems;
+  }
+}
+
+@media (max-width: 745px) {
+  .nav {
+    margin-bottom: 1rems;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 468px) {
+  .nav-responsive {
+    display: none;
+  }
+
+  .nav {
+    justify-content: center;
+  }
 }

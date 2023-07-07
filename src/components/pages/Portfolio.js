@@ -8,7 +8,7 @@ import { BiSolidBook } from "react-icons/bi";
 const project1 = {
   title: "SQL Employee Management App",
   description: `This is a command-line application that lets employers manager their employees, and the departments they belong to/the roles they carry out. You'll need to run this locally!`,
-  image: '/files/employee-tracker.png',
+  image: require('../../assets/files/employee-tracker.png'),
   repo: 'https://github.com/zaingova/zaingova-sql-employee-tracker',
   deployed: 'https://github.com/zaingova/zaingova-sql-employee-tracker'
 }
@@ -16,7 +16,7 @@ const project1 = {
 const project2 = {
   title: "Fun with Food",
   description: `A web application for users to be able to create their own dish list based on selected options and save it. A page containning a list of all dishes is also provided to the user`,
-  image: '/files/fun-with-food.png',
+  image: require('../../assets/files/fun-with-food.png'),
   repo: 'https://github.com/zaingova/Fun-with-food',
   deployed: 'https://github.com/zaingova/Fun-with-food'
 }
@@ -24,7 +24,7 @@ const project2 = {
 const project3 = {
   title: "CMS Tech Blog",
   description: "This is a fullstack tech blog coded in javascript, using handlebars, express, sequelize mainly. It also utilizes a handful of other NPM packages which I will lsit below. Users have the option to make a new account, log into existing ones, and once they've done that they (...)",
-  image: '/files/tech-blog.png',
+  image: require('../../assets/files/tech-blog.png'),
   repo: 'https://github.com/zaingova/zaingova-cms-tech-blog',
   deployed: 'https://zaingova-blog-site-f64acb04e5ec.herokuapp.com/'
 }
@@ -32,7 +32,7 @@ const project3 = {
 const project4 = {
   title: "Weather Dashboard",
   description: "This is a basic weather dashboard application that utilizes the OpenWeatherMap API. You can search for any city (also works for countries) around the globe and you will be presented with a daily forecast, as well as a five day forecast for that place. It also saves your search (...)",
-  image: '/files/weather-dashboard.png',
+  image: require('../../assets/files/weather-dashboard.png'),
   repo: 'https://github.com/zaingova/zaingova-weather-dashboard',
   deployed: 'https://zaingova.github.io/zaingova-weather-dashboard/'
 }
@@ -40,7 +40,7 @@ const project4 = {
 const project5 = {
   title: "Learning Words",
   description: "Learning Words is an interactive web application that lets the user search for words, and it returns some information about words, such as type (noun, verb, etc), definition, and synonyms. Once the user has searched for a word (...)",
-  image: '/files/learning-words.png',
+  image: require('../../assets/files/learning-words.png'),
   repo: 'https://github.com/zaingova/group-project-learning-words',
   deployed: 'https://zaingova.github.io/group-project-learning-words/'
 }
@@ -48,7 +48,7 @@ const project5 = {
 const project6 = {
   title: "Password Generator",
   description: "A JavaScript password generator tool. Prompts user for whether to use upper/lower case, numbers, special characters, and the password length, then generates a unique password derived from the information it has.",
-  image: '/files/password-gen.png',
+  image: require('../../assets/files/password-gen.png'),
   repo: 'https://github.com/zaingova/zaingova-passwordGen',
   deployed: 'https://zaingova.github.io/zaingova-passwordGen/'
 }
@@ -58,7 +58,7 @@ export default function Portfolio() {
   return (
     <div className='d-flex justify-content-center'>
       <div className='col-10 m-3 p-4'>
-        <h1 className='title m-0 text-left'>Professional Portfolio <BiSolidBook className='mb-2 title-icon'/></h1>
+        <h1 className='title m-0 text-left'>Professional Portfolio <BiSolidBook className='mb-2 title-icon' /></h1>
 
         <div className='col-12'>
           <p className='p-4 bg-light shadow'>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { useState, useRef } from 'react';
+import { useState } from 'react';
 import emailjs from 'emailjs-com';
 
 import '../../assets/css/input.css';
@@ -13,9 +13,6 @@ export default function Contact() {
   const [lastName, setLastName] = useState('');
   const [message, setMessage] = useState('');
 
-  // useRef for accessing form
-  const form = useRef();
-
   // storing relevant data in object to be passed into sendEmail function later
   const templateParams = {
     userEmail: email,
@@ -23,13 +20,21 @@ export default function Contact() {
     userName: firstName + " " + lastName
   }
 
+  const [errorMessage] = useState('Field cannot be null!');
+
+  const handleNullError = (e) => {
+    if (!e.target.value.length) {
+      alert(errorMessage);
+    }
+  }
+
   // input change handling
   const handleInputChange = (e) => {
     const { name, value } = e.target;
 
-    if (name === 'email')
+    if (name === 'email') {
       return setEmail(value);
-    else if (name === 'firstName')
+    } else if (name === 'firstName')
       return setFirstName(value);
     else if (name === 'lastName') {
       return setLastName(value);
@@ -78,6 +83,8 @@ export default function Contact() {
                 value={email}
                 name='email'
                 type="email"
+                required
+                onBlur={handleNullError}
                 onChange={handleInputChange}
                 class="form-control"
                 id="email"
@@ -89,7 +96,9 @@ export default function Contact() {
                 <input
                   value={firstName}
                   name='firstName'
+                  required
                   type="text"
+                  onBlur={handleNullError}
                   onChange={handleInputChange}
                   class="form-control"
                   id="first_name"
@@ -100,7 +109,9 @@ export default function Contact() {
                 <input
                   value={lastName}
                   name='lastName'
+                  required
                   type="text"
+                  onBlur={handleNullError}
                   onChange={handleInputChange}
                   class="form-control"
                   id="first_name"
@@ -112,7 +123,9 @@ export default function Contact() {
               <textarea
                 className='col-12 p-2'
                 name='message'
+                required
                 value={message}
+                onBlur={handleNullError}
                 onChange={handleInputChange}
                 rows={5}
                 placeholder='Your message...'>

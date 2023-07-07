@@ -4,7 +4,6 @@ import '../assets/css/project.css';
 import '../assets/css/style.css';
 import { SiGithubactions } from "react-icons/si";
 
-
 export default function Project({ project, s }) {
 
   return (

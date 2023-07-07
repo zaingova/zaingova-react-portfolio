@@ -5,12 +5,12 @@ import '../assets/css/nav.css';
 export default function Navbar({ currentPage, handlePageChange }) {
   return (
     <header className='d-flex'>
-      <nav className="navbar navbar-expand-sm">
+      <nav className="navbar navbar-expand-md">
         <a
           href='#about'
           onClick={() => handlePageChange('About')}
           className='navbar-brand'>
-          <h1 className='name mx-5 mt-4'>Zain Gova</h1>
+          <h1 className='nav-responsive mx-5 mt-4'>Zain Gova</h1>
         </a>
         <div className='container-fluid'>
           <ul className='nav nav-tabs'>
