@@ -21,6 +21,8 @@ In addition to these components, there are links to my socials at the bottom of 
 
 ### A brief video demonstration of the portfolio
 
+https://github.com/zaingova/zaingova-react-portfolio/assets/127261218/70855e1f-b7de-4cf7-a6dd-e17912caa14b
+
 ## Usage
 
 Using this app is very simple. Just click on whichever page you'd like to visit in the navbar! You can also click on any of the icons in the footer to be taken to my socials (GitHub, Stack Overflow, Linkedin).
