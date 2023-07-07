@@ -23,6 +23,8 @@ In addition to these components, there are links to my socials at the bottom of 
 
 ### A brief video demonstration of the portfolio
 
+https://github.com/zaingova/zaingova-react-portfolio/assets/127261218/70855e1f-b7de-4cf7-a6dd-e17912caa14b
+
 ## Usage
 
 You can access my portfolio using [this link](https://zaingova.github.io/zaingova-react-portfolio/#contact)
