@@ -1,9 +1,11 @@
 import React from 'react';
 
+// CSS and icon imports
 import '../assets/css/project.css';
 import '../assets/css/style.css';
 import { SiGithubactions } from "react-icons/si";
 
+// takes project prop and 's' prop, which is specific styling classes to be applied
 export default function Project({ project, s }) {
 
   return (

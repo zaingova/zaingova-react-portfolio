@@ -2,8 +2,8 @@ import React from 'react';
 import { useState } from 'react';
 import emailjs from 'emailjs-com';
 
+// importing CSS and icons
 import '../../assets/css/input.css';
-
 import { MdChat } from "react-icons/md";
 
 export default function Contact() {
@@ -13,6 +13,9 @@ export default function Contact() {
   const [lastName, setLastName] = useState('');
   const [message, setMessage] = useState('');
 
+  // error message as useState()
+  const [errorMessage] = useState('Field cannot be null!');
+
   // storing relevant data in object to be passed into sendEmail function later
   const templateParams = {
     userEmail: email,
@@ -20,8 +23,7 @@ export default function Contact() {
     userName: firstName + " " + lastName
   }
 
-  const [errorMessage] = useState('Field cannot be null!');
-
+  // if input length = 0, send alert
   const handleNullError = (e) => {
     if (!e.target.value.length) {
       alert(errorMessage);
@@ -77,6 +79,7 @@ export default function Contact() {
         <hr></hr>
 
         <div className='col-12 card bg-light px-4 py-5 shadow section'>
+          {/* calls the sendEmail function when form is submitted */}
           <form onSubmit={sendEmail}>
             <div className='form-group col-12 my-2'>
               <input

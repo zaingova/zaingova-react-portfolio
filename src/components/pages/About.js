@@ -1,5 +1,6 @@
 import React from 'react';
 
+// CSS imports
 import '../../assets/css/image.css';
 
 export default function About() {

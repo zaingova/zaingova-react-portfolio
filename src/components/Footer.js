@@ -14,6 +14,7 @@ export default function Footer() {
   return (
     <div className='col-12 footer'>
       <div className='d-flex justify-content-around container'>
+        {/* clicking each icon opens a new window that takes the user to my profile on that site */}
         <h1><i className='footer-btn' onClick={() => window.open(contactInfo.github)}><RiGithubFill /></i></h1>
         <h1><i className='footer-btn' onClick={() => window.open(contactInfo.stackoverflow)}><RiStackOverflowLine /></i></h1>
         <h1><i className='footer-btn' onClick={() => window.open(contactInfo.linkedin)}><RiLinkedinBoxFill /></i></h1>

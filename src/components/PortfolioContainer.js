@@ -9,6 +9,7 @@ import Footer from './Footer';
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('About');
 
+  // decides what page to render (based on what navigation tab is selected)
   const renderPage = () => {
     if (currentPage === 'Portfolio')
       return <Portfolio />;
@@ -20,14 +21,18 @@ export default function PortfolioContainer() {
       return <Resume />;
   }
 
+  // allows us to change the page
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
     <div>
+      {/* renders the navigation bar and the page-content */}
       <div className='content-container'>
         <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
         {renderPage()}
       </div>
+
+      {/* renders the footer */}
       <footer className='footer-pin'>
         <Footer />
       </footer>

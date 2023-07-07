@@ -1,10 +1,11 @@
 import React from 'react';
 import Project from '../Project';
 
+// CSS and icon imports
 import '../../assets/css/project.css';
-
 import { BiSolidBook } from "react-icons/bi";
 
+// creating objects for each project -> had to do it this way instead of an array because of the way the page is setup
 const project1 = {
   title: "SQL Employee Management App",
   description: `This is a command-line application that lets employers manager their employees, and the departments they belong to/the roles they carry out. You'll need to run this locally!`,
@@ -68,7 +69,7 @@ export default function Portfolio() {
           <hr></hr>
         </div>
 
-        {/* ---------------- projects ------------------------------------------------------ */}
+        {/* ---------------------------------- projects ------------------------------------------------------ */}
 
         <div className='p-2 row f-flex'>
           <Project s='mx-1 project p-5 pb-0 shadow col' project={project1} />

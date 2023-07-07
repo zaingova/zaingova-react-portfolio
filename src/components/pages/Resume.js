@@ -1,7 +1,7 @@
 import React from 'react';
 
+// CSS and icon imports
 import '../../assets/css/style.css';
-
 import { MdInsertDriveFile } from "react-icons/md";
 
 export default function Resume() {
@@ -43,6 +43,7 @@ export default function Resume() {
 
           <hr></hr>
 
+          {/* work experience */}
           <h3 className='mb-4'><u>Work Experience (most relevant)</u></h3>
           <div className='mb-4 mx-3'>
             <h5><b><u>Line Cook, Jr. Sous Chef</u></b></h5>
@@ -129,6 +130,7 @@ export default function Resume() {
             </p>
           </div>
         </div>
+        {/* download button */}
         <a href='/files/resume.pdf' download><button className='mt-4 btn btn-lg btn-contact'>Download Resume</button></a>
       </div>
     </div>
