@@ -1,13 +1,19 @@
 {
   "files": {
     "main.css": "/zaingova-react-portfolio/static/css/main.0b55b63e.css",
-    "main.js": "/zaingova-react-portfolio/static/js/main.752a12f5.js",
+    "main.js": "/zaingova-react-portfolio/static/js/main.a5e4b0c7.js",
+    "static/media/me.png": "/zaingova-react-portfolio/static/media/me.4a35f8d93c6564680cdf.png",
+    "static/media/learning-words.png": "/zaingova-react-portfolio/static/media/learning-words.d418da134614a687c29e.png",
+    "static/media/tech-blog.png": "/zaingova-react-portfolio/static/media/tech-blog.5c3ea60d2cd68c0afee3.png",
+    "static/media/fun-with-food.png": "/zaingova-react-portfolio/static/media/fun-with-food.d2d808395bb67e44100d.png",
+    "static/media/password-gen.png": "/zaingova-react-portfolio/static/media/password-gen.03775c7ece8de8f8faa3.png",
+    "static/media/employee-tracker.png": "/zaingova-react-portfolio/static/media/employee-tracker.94855f30ff228035925d.png",
     "index.html": "/zaingova-react-portfolio/index.html",
     "main.0b55b63e.css.map": "/zaingova-react-portfolio/static/css/main.0b55b63e.css.map",
-    "main.752a12f5.js.map": "/zaingova-react-portfolio/static/js/main.752a12f5.js.map"
+    "main.a5e4b0c7.js.map": "/zaingova-react-portfolio/static/js/main.a5e4b0c7.js.map"
   },
   "entrypoints": [
     "static/css/main.0b55b63e.css",
-    "static/js/main.752a12f5.js"
+    "static/js/main.a5e4b0c7.js"
   ]
 }
