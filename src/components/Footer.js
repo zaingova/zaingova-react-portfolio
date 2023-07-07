@@ -14,9 +14,9 @@ export default function Footer() {
   return (
     <div className='col-12 footer'>
       <div className='d-flex justify-content-around container'>
-        <h1 onClick={() => window.location.href = contactInfo.github} className='footer-btn'><RiGithubFill /></h1>
-        <h1 onClick={() => window.location.href = contactInfo.stackoverflow} className='footer-btn'><RiStackOverflowLine /></h1>
-        <h1 onClick={() => window.location.href = contactInfo.linkedin} className='footer-btn'><RiLinkedinBoxFill /></h1>
+        <h1><i className='footer-btn' onClick={() => window.open(contactInfo.github)}><RiGithubFill /></i></h1>
+        <h1><i className='footer-btn' onClick={() => window.open(contactInfo.stackoverflow)}><RiStackOverflowLine /></i></h1>
+        <h1><i className='footer-btn' onClick={() => window.open(contactInfo.linkedin)}><RiLinkedinBoxFill /></i></h1>
       </div>
     </div>
   )

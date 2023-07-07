@@ -1,5 +1,7 @@
 import React from 'react';
 
+import '../../assets/css/style.css';
+
 export default function Resume() {
   return (
     <div className='m-3 p-4 col-8'>
@@ -8,18 +10,9 @@ export default function Resume() {
         Below you'll find a copy of my professional resume. If you'd like to download this document, scroll down just below the resume and you'll find a link!
         <hr></hr>
         While I don't have any experience on the job, I do have plenty of experience working in fine dining kitchens so as a result I have very strong leadership and organizational skills. I look forward to getting some experinece in this field to continue building upon my current skills as well as learning new ones!</p>
-      <div className='col-12 card bg-light px-4 py-4 shadow section'>
+      <div className='col-12 card  px-4 py-4 shadow section card'>
 
         <h2><b>Zain Gova</b></h2>
-        <hr></hr>
-
-        {/* contact info */}
-        <div className='mx-2 p-3 d-block'>
-          <ul className='p-1 bg-light'>zain.gova@yahoo.com</ul>
-          <ul className='p-1 bg-light'>647-985-2839</ul>
-          <ul className='p-1'>12 Elaine Lennox Court; Toronto, ON</ul>
-        </div>
-
         <hr></hr>
 
         {/* skills */}
@@ -30,6 +23,7 @@ export default function Resume() {
             <li>Express.js</li>
             <li>ApolloServer</li>
             <li>GraphQL</li>
+            <li>Node.js</li>
           </div>
           <div className='col-4'>
             <h5><b>Front-end</b></h5>

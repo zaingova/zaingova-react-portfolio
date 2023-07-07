@@ -12,7 +12,7 @@ export default function Project({ project, s }) {
       <h4 className='text-center mb-4'><b>{project.title}</b></h4>
       <hr></hr>
       {project.description}
-      <img src={project.image} alt='project'></img>
+      <img onClick={() => window.open(project.repo)} className='project-image' src={project.image} alt='project'></img>
       <h3 className='text-center my-4 project-link'><i onClick={() => window.open(project.deployed)}><SiGithubactions /></i></h3>
     </p>
   );
