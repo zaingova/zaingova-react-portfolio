@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/zaingova-react-portfolio/static/css/main.0b55b63e.css",
+    "main.js": "/zaingova-react-portfolio/static/js/main.752a12f5.js",
+    "index.html": "/zaingova-react-portfolio/index.html",
+    "main.0b55b63e.css.map": "/zaingova-react-portfolio/static/css/main.0b55b63e.css.map",
+    "main.752a12f5.js.map": "/zaingova-react-portfolio/static/js/main.752a12f5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0b55b63e.css",
+    "static/js/main.752a12f5.js"
+  ]
+}
