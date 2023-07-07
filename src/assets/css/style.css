@@ -55,3 +55,8 @@ h1 {
   color: #000 !important;
   font-weight: bold;
 }
+
+.title-icon {
+  margin-left: 0.3rem;
+  color: #939bc2;
+}

@@ -3,6 +3,8 @@ import Project from '../Project';
 
 import '../../assets/css/project.css';
 
+import { BiSolidBook } from "react-icons/bi";
+
 const project1 = {
   title: "SQL Employee Management App",
   description: `This is a command-line application that lets employers manager their employees, and the departments they belong to/the roles they carry out. You'll need to run this locally!`,
@@ -54,9 +56,9 @@ const project6 = {
 export default function Portfolio() {
 
   return (
-    <div className='d-flex'>
+    <div className='d-flex justify-content-center'>
       <div className='col-10 m-3 p-4'>
-        <h1 className='title m-0 text-left'>Professional Portfolio</h1>
+        <h1 className='title m-0 text-left'>Professional Portfolio <BiSolidBook className='mb-2 title-icon'/></h1>
 
         <div className='col-12'>
           <p className='p-4 bg-light shadow'>

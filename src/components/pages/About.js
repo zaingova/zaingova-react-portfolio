@@ -4,9 +4,9 @@ import '../../assets/css/image.css';
 
 export default function About() {
   return (
-    <div>
+    <div className='d-flex justify-content-center'>
       <section className='m-3 p-4 col-8'>
-        <div className='d-flex'>
+        <div className='d-flex flex-wrap'>
 
           <img className='rounded-circle my-3 mb-4 shadow' src='/files/me.png' alt='img'></img>
           <h1 className='mt-5 mx-5 title'>About Me!</h1>

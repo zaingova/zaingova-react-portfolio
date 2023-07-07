@@ -1,6 +1,7 @@
 .navbar {
   border-bottom: 2px dashed var(--cambridgeBlue) !important;
   margin-bottom: 1rem !important;
+  width: 100%;
 }
 
 .nav {

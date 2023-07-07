@@ -4,8 +4,8 @@ import '../assets/css/nav.css';
 
 export default function Navbar({ currentPage, handlePageChange }) {
   return (
-    <header>
-      <nav className="navbar navbar-expand-lg">
+    <header className='d-flex'>
+      <nav className="navbar navbar-expand-sm">
         <a
           href='#about'
           onClick={() => handlePageChange('About')}
