@@ -3,13 +3,27 @@
 
 ## Description
 
-This is a professional portfolio created using React. 
+This is a professional portfolio created using React. It has 4 sections:
+
+- About Me
+- Portfolio
+- My Resume
+- Contact Me
+
+In addition to these components, there are links to my socials at the bottom of the page.
 
 ## Visuals
+
+### some sample images of a couple of the pages on the site
+
+![about](./src/assets/media/about.png)
+![contact](./src/assets/media/contact.png)
 
 ### A brief video demonstration of the portfolio
 
 ## Usage
+
+Using this app is very simple. Just click on whichever page you'd like to visit in the navbar! You can also click on any of the icons in the footer to be taken to my socials (GitHub, Stack Overflow, Linkedin).
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)

@@ -15,42 +15,26 @@ export default function About() {
         {/* some information about me */}
         <div className='col-12 mt-2'>
           <p className='p-4 bg-light shadow'>
-            Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
-            Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
-            dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
-            sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum nunc,
-            sed pretium risus rutrum eget. Nam consequat, ligula in faucibus
-            vestibulum, nisi justo laoreet risus, luctus luctus mi lacus sit amet
-            libero. Class aptent taciti sociosqu ad litora torquent per conubia
-            nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-            lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-            Donec placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum
-            in velit pellentesque vehicula sit amet at augue. Maecenas aliquam
-            bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
-            est ligula suscipit velit, sed bibendum turpis dui in sapien.</p>
-          <p className='p-4   bg-light shadow'>
-            Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
-            Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
-            dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
-            sodales volutpat et, hendrerit ut dolor. Donec nec ipsum
-            in velit pellentesque vehicula sit amet at augue. Maecenas aliquam
-            bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
-            est ligula suscipit velit, sed bibendum turpis dui in sapien.</p>
+            Welcome to my professional portfolio! Inside you'll find a few of the projects I've worked on, along with links to the deployed applications and the GitHub repositories; my resume; a form which you can use to send me a message; and additionally, at the bottom of the page you'll see some icons which you can click on! They'll take you to my pages on their respective sites, which are GitHub, Stack Overflow, and Linkedin.
+            <hr></hr>
+            You can use the <b>navigation links</b> at the top of this page to explore the portfolio!
+          </p>
           <hr></hr>
-          <p className='p-4 bg-light shadow'>
-            Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
-            Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
-            dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
-            sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum nunc,
-            sed pretium risus rutrum eget. Nam consequat, ligula in faucibus
-            vestibulum, nisi justo laoreet risus, luctus luctus mi lacus sit amet
-            libero. Class aptent taciti sociosqu ad litora torquent per conubia
-            nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-            lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-            Donec placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum
-            in velit pellentesque vehicula sit amet at augue. Maecenas aliquam
-            bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
-            est ligula suscipit velit, sed bibendum turpis dui in sapien.</p>
+          <p className='p-4   bg-light shadow'>
+            At the time of creating this, I'm currently enrolled in the full-stack web development bootcamp hosted by UofT. In the past three months we've covered lots of material which includes but is not limited to:
+            <hr></hr>
+            <li className='mx-3'>HTML, CSS, and JavaScript</li>
+            <li className='mx-3'>Handlebars and React.js</li>
+            <li className='mx-3'>Node.js</li>
+            <li className='mx-3'>Express.js, ApolloServer, and GraphQL</li>
+            <li className='mx-3'>Creating and using RESTful APIs</li>
+            <li className='mx-3'>Server-side APIs</li>
+            <li className='mx-3'>MERN</li>
+            <li className='mx-3'>Progressive Web Applications (PWAs), Service Workers, Webpacks</li>
+            <li className='mx-3'>MySQL, MongoDB, IndexedDB</li>
+            <hr></hr>
+            Each day I'm delving deeper into these concepts and also into many new ones. For future development, I plan on working on some more complicated projects.
+          </p>
         </div>
       </section>
     </div>
