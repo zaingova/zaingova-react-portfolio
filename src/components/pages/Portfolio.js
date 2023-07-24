@@ -62,6 +62,14 @@ const project7 = {
   deployed: 'https://freelance-platform-5f9607a54217.herokuapp.com/'
 }
 
+const project8 = {
+  title: "E-commerce Back-end",
+  description: "This is a back-end server application for an e-commerce website. Using Insomnia or other similar applications, you can make GET/POST/PUT/DELETE http requests for products/categories/tags.",
+  image: require('../../assets/files/ecom-backend.png'),
+  repo: 'https://github.com/zaingova/zaingova-e-commerce-back-end',
+  deployed: 'https://github.com/zaingova/zaingova-e-commerce-back-end'
+}
+
 export default function Portfolio() {
 
   return (
@@ -92,6 +100,7 @@ export default function Portfolio() {
           <Project s='mx-1 project p-5 pb-0 shadow col' project={project6} />
         </div>
         <div className='p-2 row d-flex'>
+          <Project s='mx-1 project p-5 pb-0 shadow col' project={project8} />
           <Project s='mx-1 project p-5 pb-0 shadow col' project={project7} />
         </div>
 
