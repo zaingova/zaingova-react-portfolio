@@ -54,6 +54,14 @@ const project6 = {
   deployed: 'https://zaingova.github.io/zaingova-passwordGen/'
 }
 
+const project7 = {
+  title: "Freelance Platform",
+  description: "The freelance platform is a web application that connects freelancers with clients looking for their services. It provides a platform where freelancers can showcase their skills and expertise, and clients...",
+  image: require('../../assets/files/freelance-platform.png'),
+  repo: 'https://github.com/s2robertson/freelance-platform',
+  deployed: 'https://freelance-platform-5f9607a54217.herokuapp.com/'
+}
+
 export default function Portfolio() {
 
   return (
@@ -81,6 +89,9 @@ export default function Portfolio() {
         </div>
         <div className='p-2 row d-flex'>
           <Project s='mx-1 project p-5 pb-0 shadow col' project={project5} />
+          <Project s='mx-1 project p-5 pb-0 shadow col' project={project6} />
+        </div>
+        <div className='p-2 row d-flex'>
           <Project s='mx-1 project p-5 pb-0 shadow col' project={project6} />
         </div>
 
