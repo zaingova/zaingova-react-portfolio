@@ -92,7 +92,7 @@ export default function Portfolio() {
           <Project s='mx-1 project p-5 pb-0 shadow col' project={project6} />
         </div>
         <div className='p-2 row d-flex'>
-          <Project s='mx-1 project p-5 pb-0 shadow col' project={project6} />
+          <Project s='mx-1 project p-5 pb-0 shadow col' project={project7} />
         </div>
 
       </div>
