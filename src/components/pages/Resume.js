@@ -131,7 +131,7 @@ export default function Resume() {
           </div>
         </div>
         {/* download button */}
-        <a href='/files/resume(main).pdf' download><button className='mt-4 btn btn-lg btn-contact'>Download Resume</button></a>
+        <a href='/files/resume.pdf' download><button className='mt-4 btn btn-lg btn-contact'>Download Resume</button></a>
       </div>
     </div>
   );

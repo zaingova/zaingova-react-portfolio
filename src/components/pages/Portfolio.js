@@ -27,7 +27,7 @@ const project3 = {
   description: "This is a fullstack tech blog coded in javascript, using handlebars, express, sequelize mainly. It also utilizes a handful of other NPM packages which I will lsit below. Users have the option to make a new account, log into existing ones, and once they've done that they (...)",
   image: require('../../assets/files/tech-blog.png'),
   repo: 'https://github.com/zaingova/zaingova-cms-tech-blog',
-  deployed: 'https://zaingova-blog-site-f64acb04e5ec.herokuapp.com/'
+  deployed: 'https://powerful-mountain-20188-ee7b0bd70752.herokuapp.com/'
 }
 
 const project4 = {
