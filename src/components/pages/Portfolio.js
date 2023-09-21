@@ -19,7 +19,7 @@ const project2 = {
   description: `A web application for users to be able to create their own dish list based on selected options and save it. A page containning a list of all dishes is also provided to the user`,
   image: require('../../assets/files/fun-with-food.png'),
   repo: 'https://github.com/zaingova/Fun-with-food',
-  deployed: 'https://zaingova.github.io/Fun-with-food/'
+  deployed: 'https://funwithfood-3f1767f1ba6c.herokuapp.com/'
 }
 
 const project3 = {
